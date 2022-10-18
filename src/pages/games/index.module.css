@@ -1,0 +1,19 @@
+.monthGroup {
+  font-size: large;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  justify-self: center;
+}
+
+.calender {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5em;
+}

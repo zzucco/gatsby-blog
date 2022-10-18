@@ -1,0 +1,195 @@
+{
+  "2021": [
+    {
+      "games": [
+        {
+          "slug": "spaceport-janitor",
+          "title": "Diaries of a Spaceport Janitor"
+        }
+      ],
+      "month": "January"
+    },
+    {
+      "games": [
+        {
+          "slug": "slay-the-spire",
+          "title": "Slay the Spire"
+        }
+      ],
+      "month": "February"
+    },
+    {
+      "games": [],
+      "month": "March"
+    },
+    {
+      "games": [],
+      "month": "April"
+    },
+    {
+      "games": [
+        {
+          "slug": "morrowind",
+          "title": "Morrowind"
+        },
+        {
+          "slug": "subnautica-below-zero",
+          "title": "Subnautica Below Zero"
+        }
+      ],
+      "month": "May"
+    },
+    {
+      "games": [
+        {
+          "slug": "supraland",
+          "title": "Supraland"
+        }
+      ],
+      "month": "June"
+    },
+    {
+      "games": [
+        {
+          "slug": "environment-station-alpha",
+          "title": "Environmental Station Alpha"
+        },
+        {
+          "slug": "noita",
+          "title": "Noita"
+        },
+        {
+          "slug": "deaths-door",
+          "title": "Death's Door"
+        }
+      ],
+      "month": "July"
+    },
+    {
+      "games": [
+        {
+          "slug": "wandersong",
+          "title": "Wandersong"
+        }
+      ],
+      "month": "August"
+    },
+    {
+      "games": [
+        {
+          "slug": "metroid-prime-2",
+          "title": "Metroid Prime 2"
+        },
+        {
+          "slug": "night-in-the-woods",
+          "title": "Night in the Woods"
+        }
+      ],
+      "month": "September"
+    },
+    {
+      "games": [
+        {
+          "slug": "metroid-prime-3",
+          "title": "Metroid Prime 3"
+        },
+        {
+          "slug": "myst",
+          "title": "Myst"
+        }
+      ],
+      "month": "October"
+    },
+    {
+      "games": [],
+      "month": "November"
+    },
+    {
+      "games": [
+        {
+          "slug": "ico",
+          "title": "Ico"
+        },
+        {
+          "slug": "chicory",
+          "title": "Chicory: A Colorful Tale"
+        }
+      ],
+      "month": "December"
+    }
+  ],
+  "2022": [
+    {
+      "games": [],
+      "month": "January"
+    },
+    {
+      "games": [],
+      "month": "February"
+    },
+    {
+      "games": [
+        {
+          "slug": "banner-saga",
+          "title": "The Banner Saga"
+        }
+      ],
+      "month": "March"
+    },
+    {
+      "games": [
+        {
+          "slug": "nioh",
+          "title": "Nioh"
+        },
+        {
+          "slug": "fez",
+          "title": "Fez"
+        }
+      ],
+      "month": "April"
+    },
+    {
+      "games": [
+        {
+          "slug": "tunic",
+          "title": "Tunic"
+        }
+      ],
+      "month": "May"
+    },
+    {
+      "games": [
+        {
+          "slug": "bug-fables",
+          "title": "Bug Fables"
+        }
+      ],
+      "month": "June"
+    },
+    {
+      "games": [],
+      "month": "July"
+    },
+    {
+      "games": [],
+      "month": "August"
+    },
+    {
+      "games": [],
+      "month": "September"
+    },
+    {
+      "games": [],
+      "month": "October"
+    },
+    {
+      "games": [],
+      "month": "November"
+    },
+    {
+      "games": [],
+      "month": "December"
+    }
+  ]
+}

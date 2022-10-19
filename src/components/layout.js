@@ -2,11 +2,11 @@ import * as React from "react";
 import Header from "../components/header";
 import Navbar from "./navbar";
 import { container, header, footer } from "./layout.module.css";
-import { useBreakpoint } from "gatsby-plugin-breakpoints";
+import { useMediaQuery } from "react-responsive";
 
 export default function Layout({ children }) {
-  const breakpoints = useBreakpoint();
-  if (breakpoints.xs) {
+  const isMobile = useMediaQuery({ query: "(max-width: 450px)" });
+  if (isMobile) {
     return (
       <div>
         this is a mobile LAST website. support coming when i feel like it, ya

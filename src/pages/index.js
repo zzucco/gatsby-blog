@@ -1,12 +1,11 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import Home from "../../content/home.mdx";
+import "../styles/fonts.css";
 const IndexPage = () => {
   return (
     <Layout>
-      <p>
-        Welcome to my shitty website. This is mostly an excuse to learn React
-        and CSS.
-      </p>
+      <Home />
     </Layout>
   );
 };

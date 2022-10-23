@@ -1,7 +1,7 @@
 import * as React from "react";
 import Header from "../components/header";
 import Navbar from "./navbar";
-import { container, header, footer } from "./layout.module.css";
+import { container, main, footer } from "./layout.module.css";
 import { useMediaQuery } from "react-responsive";
 
 export default function Layout({ children }) {
@@ -20,7 +20,7 @@ export default function Layout({ children }) {
         <Header></Header>
         <Navbar></Navbar>
       </div>
-      <main>{children}</main>
+      <main className={main}>{children}</main>
       <footer className={footer}></footer>
     </div>
   );

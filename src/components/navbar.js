@@ -4,7 +4,7 @@ import { link } from "./navbar.module.css";
 export default function Navbar() {
   return (
     <nav>
-      <div>--------------------------------------------------------</div>
+      <div>═════════════════════════════════════════════════════════════</div>
       <Link className={link} to="/">
         Home
       </Link>
@@ -14,7 +14,7 @@ export default function Navbar() {
       <Link className={link} to="/games">
         Games
       </Link>
-      <div>--------------------------------------------------------</div>
+      <div>═════════════════════════════════════════════════════════════</div>
     </nav>
   );
 }

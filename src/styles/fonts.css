@@ -1,0 +1,16 @@
+.ESA {
+  font: 14px "ESA";
+}
+
+.Zu {
+  font: 18px "Zu";
+}
+
+.english {
+  font: 18px "LinuxLibertine";
+  letter-spacing: 0.1em;
+}
+
+.Trunic {
+  font: 28px "Trunic";
+}

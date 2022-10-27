@@ -14,3 +14,7 @@
 .Trunic {
   font: 28px "Trunic";
 }
+
+.hidden {
+  visibility: hidden;
+}

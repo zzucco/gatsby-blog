@@ -23,7 +23,9 @@
     "gatsby-source-filesystem": "^4.23.0",
     "gatsby-transformer-remark": "^5.23.1",
     "gatsby-transformer-sharp": "^4.24.0",
+    "html-react-parser": "^3.0.4",
     "react": "^18.1.0",
+    "react-children-utilities": "^2.8.0",
     "react-dom": "^18.1.0",
     "react-responsive": "^9.0.0"
   },

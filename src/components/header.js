@@ -8,8 +8,11 @@ export default function Header() {
    \ \_____\  \ \_\ \_\  \ \_____\  \ \__/    \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_____\ 
     \/_____/   \/_/\/_/   \/_____/   \/_/      \/_/ /_/   \/_____/   \/_/\/_/   \/_____/ `;
   return (
-    <div>
-      <pre className={header}>{logo}</pre>
+    <div className={header}>
+      <p>zachary zucco</p>
+      <a href="https://github.com/zzucco">github 1</a>
+      <br/>
+      <a href="https://github.com/chevreaux">github 2</a>
     </div>
   );
 }

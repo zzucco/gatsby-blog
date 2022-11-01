@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { link } from "./navbar.module.css";
+import DarkToggle from "./DarkToggle";
 export default function Navbar() {
   return (
     <nav>
@@ -14,6 +15,7 @@ export default function Navbar() {
       <Link className={link} to="/games">
         Games
       </Link>
+      <DarkToggle/>
       <div>═════════════════════════════════════════════════════════════</div>
     </nav>
   );

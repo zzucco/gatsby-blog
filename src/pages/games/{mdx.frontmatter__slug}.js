@@ -5,7 +5,7 @@ import { graphql } from "gatsby";
 const BlogPost = ({ data, children }) => {
   return (
     <Layout>
-      <h1>GAME</h1>
+      <h1>{data.mdx.frontmatter.title}</h1>
       {children}
     </Layout>
   );

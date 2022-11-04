@@ -4,7 +4,7 @@ import gameData from "../../../content/games/list.json";
 import Card from "../../components/games-page/card";
 import { useStaticQuery, graphql } from "gatsby";
 import { title, calender, monthGroup, cards } from "./index.module.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 const GamesPage = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -15,7 +15,7 @@ const GamesPage = () => {
             gatsbyImageData(
               width: 80
               layout: CONSTRAINED
-              quality: 10
+              quality: 100
               placeholder: DOMINANT_COLOR
             )
           }
@@ -34,12 +34,21 @@ const GamesPage = () => {
   const [year, setYear] = useState("2022");
   const years = Object.keys(gameData);
 
+  useEffect(() => {
+    const storedyear = localStorage.getItem('year');
+    if (storedyear) {
+      setYear(storedyear)
+    }
+  }, []);
+
+
   return (
     <Layout>
       <div>Here's a list of all the new single-player games I've played.</div>
       <div>
         {years.map((y, i) => {
-          return <button onClick={() => setYear(y)}>{y}</button>;
+          return <button onClick={() => {setYear(y);localStorage.setItem("year", String(y));}
+          }>{y}</button>;
         })}
       </div>
       <div className={calender}>

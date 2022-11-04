@@ -2,9 +2,30 @@ nav {
   margin: auto;
   padding: 10px;
   text-align: center;
+  z-index: 999;
+  background: var(--color-background);
 }
 
 .link {
   margin-left: 1em;
   margin-right: 1em;
+  color: var(--color-text);
+}
+
+.active {
+  margin-left: 1em;
+  margin-right: 1em;
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding-left: 0;
+}
+.sticky + .padding {
+  padding-bottom: 40px;
 }

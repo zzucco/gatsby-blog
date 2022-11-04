@@ -1,5 +1,6 @@
 import React from 'react';
 import { COLORS, COLOR_MODE_KEY, INITIAL_COLOR_MODE_CSS_PROP } from './src/constants';
+import App from './src/components/App';
 
 function setColorsByTheme() {
     const colors = '🌈';
@@ -48,3 +49,8 @@ function setColorsByTheme() {
   export const onRenderBody = ({ setPreBodyComponents }) => {
     setPreBodyComponents(<MagicScriptTag />);
   };
+
+  
+export const wrapPageElement = ({ element }) => {
+  return <App>{element}</App>;
+};

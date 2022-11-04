@@ -1,5 +1,5 @@
 import * as React from "react";
-import { header } from "./header.module.css";
+import { header, child } from "./header.module.css";
 export default function Header() {
   const logo = String.raw`
    ______     __  __     ______     __   ___  ______     ______     ______     __  __    
@@ -9,10 +9,15 @@ export default function Header() {
     \/_____/   \/_/\/_/   \/_____/   \/_/      \/_/ /_/   \/_____/   \/_/\/_/   \/_____/ `;
   return (
     <div className={header}>
-      <p>zachary zucco</p>
-      <a href="https://github.com/zzucco">github 1</a>
-      <br/>
-      <a href="https://github.com/chevreaux">github 2</a>
+   -----------------------------<br/>
+   --------<span className={child}>zachary</span>--------------<br/>
+   ----------------<span className={child}>zucco</span>--------<br/>
+   -----------------------------<br/>
+   ------------<a className={child} href = "mailto:zaczucco@gmail.com">email</a>------------<br/>
+   -----------------------------<br/>
+   -------<a className={child} href="https://github.com/zzucco">github 1</a>--------------<br/>
+   ----------------<a className={child} href="https://github.com/chevreaux">github 2</a>----- <br/> 
+   -----------------------------<br/>
     </div>
   );
 }

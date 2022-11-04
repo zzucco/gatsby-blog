@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+
+
 .header {
   text-align: center;
+  font: 17px/1 "Cutive Mono", monospace;
+  color:  var(--color-gray500)
 }
+
+.child {
+  color:  var(--color-text);
+}
+
+a.child {
+  color:  var(--color-primary);
+}
+
+

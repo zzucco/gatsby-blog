@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Manrope");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
 .container {
   margin: auto;
   max-width: 800px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .main {
-  font: 18px/1.5 "Manrope", sans-serif;
+  font: 18px/1.5 "Nunito", sans-serif;
 }
 
 .footer {

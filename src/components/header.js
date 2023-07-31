@@ -11,9 +11,9 @@ export default function Header() {
     <div className={header}>
       -----------------------------
       <br />
-      --------<span className={child}>*******</span>--------------
+      --------<span className={child}>zachary</span>--------------
       <br />
-      ----------------<span className={child}>*****</span>--------
+      ----------------<span className={child}>zucco</span>--------
       <br />
       -----------------------------
       <br />

@@ -172,6 +172,96 @@
       "month": "July"
     },
     {
+      "games": [
+        {
+          "slug": "elden-ring",
+          "title": "Elden Ring"
+        }
+      ],
+      "month": "August"
+    },
+    {
+      "games": [],
+      "month": "September"
+    },
+    {
+      "games": [
+        {
+          "slug": "riven",
+          "title": "Riven"
+        }
+      ],
+      "month": "October"
+    },
+    {
+      "games": [],
+      "month": "November"
+    },
+    {
+      "games": [
+        {
+          "slug": "citizen-sleeper",
+          "title": "Citizen Sleeper"
+        }
+      ],
+      "month": "December"
+    }
+  ],
+  "2023": [
+    {
+      "games": [
+        {
+          "slug": "rain-world-downpour",
+          "title": "Rain World: Downpour"
+        }
+      ],
+      "month": "January"
+    },
+    {
+      "games": [
+        {
+          "slug": "signalis",
+          "title": "Signalis"
+        }
+      ],
+      "month": "February"
+    },
+    {
+      "games": [
+        {
+          "slug": "terraria-calamity",
+          "title": "Terraria Calamity"
+        }
+      ],
+      "month": "March"
+    },
+    {
+      "games": [],
+      "month": "April"
+    },
+    {
+      "games": [],
+      "month": "May"
+    },
+    {
+      "games": [
+        {
+          "slug": "bastion",
+          "title": "Bastion"
+        }
+      ],
+      "month": "June"
+    },
+    {
+      "games": [
+        {
+          "slug": "fight-knight",
+          "title": "Fight Knight"
+        }
+      ],
+      "month": "July"
+    },
+    {
       "games": [],
       "month": "August"
     },

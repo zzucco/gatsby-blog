@@ -9,15 +9,35 @@ export default function Header() {
     \/_____/   \/_/\/_/   \/_____/   \/_/      \/_/ /_/   \/_____/   \/_/\/_/   \/_____/ `;
   return (
     <div className={header}>
-   -----------------------------<br/>
-   --------<span className={child}>zachary</span>--------------<br/>
-   ----------------<span className={child}>zucco</span>--------<br/>
-   -----------------------------<br/>
-   ------------<a className={child} href = "mailto:zaczucco@gmail.com">email</a>------------<br/>
-   -----------------------------<br/>
-   -------<a className={child} href="https://github.com/zzucco">github 1</a>--------------<br/>
-   ----------------<a className={child} href="https://github.com/chevreaux">github 2</a>----- <br/> 
-   -----------------------------<br/>
+      -----------------------------
+      <br />
+      --------<span className={child}>*******</span>--------------
+      <br />
+      ----------------<span className={child}>*****</span>--------
+      <br />
+      -----------------------------
+      <br />
+      ------------
+      <a className={child} href="mailto:zaczucco@gmail.com">
+        email
+      </a>
+      ------------
+      <br />
+      -----------------------------
+      <br />
+      -------
+      <a className={child} href="https://github.com/zzucco">
+        github 1
+      </a>
+      --------------
+      <br />
+      ----------------
+      <a className={child} href="https://github.com/chevreaux">
+        github 2
+      </a>
+      ----- <br />
+      -----------------------------
+      <br />
     </div>
   );
 }

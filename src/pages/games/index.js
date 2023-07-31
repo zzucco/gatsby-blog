@@ -3,7 +3,15 @@ import Layout from "../../components/layout";
 import gameData from "../../../content/games/list.json";
 import Card from "../../components/games-page/card";
 import { useStaticQuery, graphql } from "gatsby";
-import { title, calender, monthGroup, cards } from "./index.module.css";
+import {
+  title,
+  calender,
+  monthGroup,
+  cards,
+  yearButton,
+  yearBar,
+  selectedYear,
+} from "./index.module.css";
 import { useState, useEffect } from "react";
 const GamesPage = () => {
   const data = useStaticQuery(graphql`
@@ -35,20 +43,28 @@ const GamesPage = () => {
   const years = Object.keys(gameData);
 
   useEffect(() => {
-    const storedyear = localStorage.getItem('year');
+    const storedyear = localStorage.getItem("year");
     if (storedyear) {
-      setYear(storedyear)
+      setYear(storedyear);
     }
   }, []);
-
 
   return (
     <Layout>
       <div>Here's a list of all the new single-player games I've played.</div>
-      <div>
+      <div className={yearBar}>
         {years.map((y, i) => {
-          return <button onClick={() => {setYear(y);localStorage.setItem("year", String(y));}
-          }>{y}</button>;
+          return (
+            <button
+              className={yearButton + " " + (y == year ? selectedYear : "")}
+              onClick={() => {
+                setYear(y);
+                localStorage.setItem("year", String(y));
+              }}
+            >
+              {y}
+            </button>
+          );
         })}
       </div>
       <div className={calender}>

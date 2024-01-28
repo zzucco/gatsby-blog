@@ -39,7 +39,7 @@ const GamesPage = () => {
     }
   `);
 
-  const [year, setYear] = useState("2022");
+  const [year, setYear] = useState("2024");
   const years = Object.keys(gameData);
 
   useEffect(() => {

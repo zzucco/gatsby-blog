@@ -236,11 +236,21 @@
       "month": "March"
     },
     {
-      "games": [],
+      "games": [
+        {
+          "slug": "rabi-ribi",
+          "title": "Rabi-Ribi"
+        }
+      ],
       "month": "April"
     },
     {
-      "games": [],
+      "games": [
+        {
+          "slug": "tears-of-the-kingdom",
+          "title": "Tears of the Kingdom"
+        }
+      ],
       "month": "May"
     },
     {
@@ -259,6 +269,94 @@
           "title": "Fight Knight"
         }
       ],
+      "month": "July"
+    },
+    {
+      "games": [
+        {
+          "slug": "pseudoregalia",
+          "title": "Pseudoregalia"
+        }
+      ],
+      "month": "August"
+    },
+    {
+      "games": [
+        {
+          "slug": "unsighted",
+          "title": "Unsighted"
+        },
+        {
+          "slug": "inscryption",
+          "title": "Inscryption"
+        }
+      ],
+      "month": "September"
+    },
+    {
+      "games": [
+        {
+          "slug": "crosscode",
+          "title": "Crosscode"
+        }
+      ],
+      "month": "October"
+    },
+    {
+      "games": [
+        {
+          "slug": "osrs-trailblazer",
+          "title": "Old School Runescape: Trailblazer League"
+        }
+      ],
+      "month": "November"
+    },
+    {
+      "games": [
+        {
+          "slug": "bomb-rush-cyberfunk",
+          "title": "Bomb Rush Cyberfunk"
+        },
+        {
+          "slug": "it-takes-two",
+          "title": "It Takes two"
+        }
+      ],
+      "month": "December"
+    }
+  ],
+  "2024": [
+    {
+      "games": [
+        {
+          "slug": "chants-of-sennaar",
+          "title": "Chants of Sennaar"
+        }
+      ],
+      "month": "January"
+    },
+    {
+      "games": [],
+      "month": "February"
+    },
+    {
+      "games": [],
+      "month": "March"
+    },
+    {
+      "games": [],
+      "month": "April"
+    },
+    {
+      "games": [],
+      "month": "May"
+    },
+    {
+      "games": [],
+      "month": "June"
+    },
+    {
+      "games": [],
       "month": "July"
     },
     {
